@@ -1,66 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MentOff - Hashem Tarazi</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div class="container">
-    <div class="profile">
-      <img src="assets/profile.jpg" alt="Hashem Tarazi" class="profile-pic">
-      <div class="info">
-        <h1>Hashem Tarazi</h1>
-        <h3>Project Manager • Mechatronics Engineer</h3>
-        <p>
-          An experienced Mechatronics Engineer from Cairo, Egypt, currently driving innovation and delivering complex engineering projects as a Project Manager in Canada.
-          With over 8 years of industry experience, I specialize in cross-functional leadership, automation systems, and smart manufacturing solutions.
-        </p>
-        <p>
-          I bring a deep understanding of embedded systems, robotics, and industrial automation—combined with a proven ability to lead multidisciplinary teams across borders.
-        </p>
-        <ul class="contacts">
-          <li><strong>Email:</strong> hashem@example.com</li>
-          <li><strong>Phone:</strong> +1 (647) 123-4567</li>
-          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mtarazi/" target="_blank">linkedin.com/in/mtarazi</a></li>
-        </ul>
-      </div>
-    </div>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #232526, #414345);
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-    <div class="sections">
-      <h2>Professional Experience</h2>
-      <ul>
-        <li>
-          <strong>Project Manager – Automation Solutions</strong><br>
-          XYZ Robotics Inc., Toronto, Canada (2021–Present)<br>
-          Leading $2M+ automation projects for manufacturing clients in automotive and logistics industries. Managing teams of engineers, suppliers, and software developers.
-        </li>
-        <li>
-          <strong>Senior Mechatronics Engineer</strong><br>
-          Delta Mechatronics, Cairo, Egypt (2017–2021)<br>
-          Designed and deployed robotic arms and PLC-driven systems across major factories in the MENA region.
-        </li>
-        <li>
-          <strong>Automation Engineer</strong><br>
-          Innovatech Egypt (2015–2017)<br>
-          Worked on SCADA integration and machine learning-based predictive maintenance for industrial plants.
-        </li>
-      </ul>
+.container {
+  padding: 20px;
+  max-width: 900px;
+  width: 100%;
+}
 
-      <h2>Education</h2>
-      <p>B.Sc. in Mechatronics Engineering — Cairo University, Egypt</p>
+.card {
+  background-color: #2b2b3d;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #000;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
 
-      <h2>Technical Skills</h2>
-      <ul class="skills">
-        <li>PLC / SCADA Systems</li>
-        <li>SolidWorks & AutoCAD</li>
-        <li>Python & Embedded C</li>
-        <li>Project Management (Agile, PMP)</li>
-        <li>Industrial Robotics</li>
-      </ul>
-    </div>
-  </div>
-</body>
-</html>
+.profile-pic img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 100px;
+  box-shadow: 0 0 10px #444;
+}
+
+.bio {
+  flex: 1;
+  min-width: 250px;
+}
+
+.bio h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #f0f0f0;
+}
+
+.bio h2 {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+.bio p {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+a {
+  color: #66d9ef;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 
