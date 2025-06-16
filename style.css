@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.15);
+}
+
+.info {
+  flex: 1;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin-top: 0;
+  color: #555;
+}
+
+p {
+  margin: 10px 0 20px;
+  line-height: 1.6;
+}
+
+.contacts li {
+  margin-bottom: 8px;
+}
+
+.contacts a {
+  color: #0056b3;
+  text-decoration: none;
+}
