@@ -1,93 +1,79 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f3f4f6;
-  color: #333;
+  background: linear-gradient(135deg, #1e1e2f, #3a3a6e);
+  color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
 }
 
 .container {
   max-width: 960px;
-  margin: 50px auto;
-  padding: 30px;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  width: 100%;
+  padding: 20px;
 }
 
-.profile {
+.card {
+  background: #2e2e48;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.3);
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   gap: 30px;
-  margin-bottom: 30px;
+  padding: 30px;
+  align-items: center;
 }
 
-.profile-pic {
-  width: 180px;
-  height: 180px;
+.profile-pic img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
   object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 12px #00000088;
 }
 
-.info {
+.bio {
   flex: 1;
+  min-width: 260px;
 }
 
-h1 {
-  margin: 0;
-  font-size: 2.2rem;
+.bio h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
 }
 
-h3 {
-  margin: 10px 0;
-  color: #666;
-  font-weight: 500;
+.bio h2 {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-bottom: 20px;
 }
 
-p {
+.bio p {
   line-height: 1.6;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
+  color: #ddd;
 }
 
-.contacts {
-  list-style: none;
-  padding: 0;
-  margin-top: 15px;
+.contact p {
+  margin: 6px 0;
+  font-size: 0.95rem;
 }
 
-.contacts li {
-  margin-bottom: 8px;
-}
-
-.contacts a {
-  color: #0056b3;
+a {
+  color: #72bfff;
   text-decoration: none;
 }
 
-.sections {
-  margin-top: 40px;
+a:hover {
+  text-decoration: underline;
 }
 
-.sections h2 {
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
-  margin-top: 25px;
-  margin-bottom: 15px;
-}
-
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  gap: 12px;
-}
-
-.skills li {
-  background: #edf2f7;
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 0.9rem;
-}
 
